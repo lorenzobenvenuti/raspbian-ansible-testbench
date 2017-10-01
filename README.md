@@ -1,6 +1,9 @@
 # raspbian-ansible-testbench
 
-A Dockerfile to test Ansible playbooks on Raspbian. To emulate a fresh Raspbian install a `pi` user with password `raspberry` is created. 
+A Dockerfile to test Ansible playbooks on Raspbian. 
+
+* In order to use Ansible, `openssh` and `python` are installed.
+* To emulate a fresh Raspbian install a `pi` user with password `raspberry` is created. 
 
 # Building the image
 
